@@ -69,11 +69,6 @@ ul.slider li{
     transition: opacity 3;
     
 }
-ul.slider li Img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
 ul.slider li:first-child{
     opacity: 1;
 }
