@@ -1,0 +1,69 @@
+*{
+    background-color: none;
+    text-align: center;
+    color: white;
+}
+.volver{
+    color: blue;
+    text-shadow: 2px 3px 5px red;
+    font-size: 48px;
+}
+.all{
+    background-repeat: repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    background-position-y:100;
+}
+.tit{
+    color: red;
+    text-shadow: 2px 3px 2px rgb(0, 149, 255);
+}
+.tit2{
+    color: rgb(0, 234, 255);
+    text-shadow: 2px 3px 2px rgb(0, 149, 255);
+}
+.len{
+    font-size: 35px;
+}
+.test{
+    font-size: 35px;
+    color: rgb(26, 211, 20);
+    background: none;
+    text-shadow: 0 0 0.2em rgba(8, 230, 255, 0.968);
+}
+.tit3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: rgb(0, 234, 255);
+    text-shadow: 2px 3px 2px rgb(0, 149, 255);
+    text-decoration: underline;
+
+}
+.conteiner{
+    display: flex;
+    border: 0.2% solid black;
+    background-color: rgba(158, 156, 156, 0.592);
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.barra{
+    font-size: 60%;
+    padding: 1%;
+    background-color: rgba(26, 211, 20, 0.729);
+    margin: 2%;
+}
+.progress-striped {
+    margin-left: 40%;
+    margin-right: 40%;
+
+}
+.len2 {
+    font-size: 35px;
+}
+.test:hover{
+    color: yellow;
+}
+.volver:hover{
+    color: yellow;
+}

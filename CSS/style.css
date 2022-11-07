@@ -1,0 +1,109 @@
+* {
+  text-align: center;
+  color: white;
+  background: none;
+  font-size: 48px;
+  font-family:'Times New Roman', Times, serif;
+  margin: 0px;
+}
+#nombre {
+  color: blue;
+  border-style: dashed;
+  border-color: blue;
+  border-radius: 3 px;
+  text-shadow: 2px 3px 5px red;
+  background-color: black;
+}
+.dWeb {
+  color: rgb(26, 211, 20);
+  background: none;
+  text-shadow: 0 0 0.2em rgba(8, 230, 255, 0.968);
+  text-align: left;
+}
+.test {
+  color: orangered;
+  text-shadow: 0 0 0.2em rgba(8, 230, 255, 0.968);
+}
+#tel {
+  color: rgb(45, 193, 242);
+  background: none;
+  margin: 28px;
+}
+.dWeb:hover {
+  color: yellow;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+.con{
+    color: rgb(57, 15, 206);
+    text-shadow: 2px 3px 5px red;
+    border-color: aliceblue  ;
+    background-color: rgba(250, 3, 3, 0.586);
+    opacity: 30; 
+}
+.linked {
+  color: rgb(6, 6, 165);
+  border-style: dotted;
+  border-color: aliceblue  ;
+  background-color: rgba(250, 151, 3, 0.586);
+  opacity: 30; 
+}
+#mail{
+    color: red;
+}
+.test:hover {
+  color: yellow;
+}
+.linked:hover {
+  color: yellow;
+}
+img {
+  float: left ;
+  border-radius: 200px;
+  border-style: groove;
+  border-color: blue;
+  margin-left: 1%;
+  margin-top: 3%;
+
+}
+.der img {
+  float: right;
+  margin-right:1%;
+  margin-top: 3%;
+}
+.all {
+  width: 100%;
+  background-repeat: repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 100%;
+  background-position-y:70px;
+  height: auto;
+}
+.chau{
+
+    text-shadow: 2px 3px 5px red;
+}
+
+@media screen and (max-width: 533px) {
+    img{
+        margin-left: 40%;
+        
+        
+    }
+    .der img {
+        opacity: 0;
+    }
+    #mail {
+        font-size: 4.8%;
+    }
+    
+}
+@media screen and (max-width: 300px){
+    * {
+        font-size: 24px;
+      }
+}
